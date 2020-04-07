@@ -1,8 +1,8 @@
 import java.util.ArrayList;
-import java.util.Array;
+
 public class Test
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         ArrayList<Integer>list1 = new ArrayList<>();
         ArrayList<Integer>list2 = new ArrayList<>();
