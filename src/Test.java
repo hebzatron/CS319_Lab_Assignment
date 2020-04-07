@@ -19,5 +19,22 @@ public class Test
         ArrayOrganizer arrOrg = new ArrayOrganizer();
         ArrayList<Integer>result = arrOrg.concatAndSort(list1,list2,list3);
         System.out.println("the result is : " + result);
+        System.out.println("------------------------");
+        Player p1 = new Player("Tom");
+        Player p2 = new Player("John");
+        Player p3 = new Player("James");
+        Player p4 = new Player("Henry");
+        Die die = new Die();
+        for(int i = 0; i < 5; i++)
+        {
+            p1.addScore(die.rollDie());
+            p2.addScore(die.rollDie());
+            p3.addScore(die.rollDie());
+            p4.addScore(die.rollDie());
+        }
+        p1.toString();
+        p2.toString();
+        p3.toString();
+        p4.toString();
     }
 }
